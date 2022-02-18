@@ -5,8 +5,8 @@ class Tarot(models.Model):
     This is the class-model for the tarots, including
     pictures, short and long descriptions
     """
-    name = models.CharField('Name', maxlength=63, unique=True)
-    short_tip = models.CharField('Tip', maxlength=200)
+    name = models.CharField('Name', max_length=63, unique=True)
+    short_tip = models.CharField('Tip', max_length=200)
     description = models.TextField('Description')
     figure = models.ImageField('Image', upload_to="staticfiles/images/tarots/")
 
