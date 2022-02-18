@@ -4,10 +4,10 @@
 {% block content %}
 <h1>Ecco la Homepage!</h1>
 {% with tarot_generate as tarot %}
-	<div class="cards__single">
-        <div class="cards__front"><img src="{% static '/images/base/whiteroseback.png' %}" height="300">
+	<div class="cards__single container-fluid">
+        <div class="cards__front"><img class="img-fluid" src="{% static '/images/base/whiteroseback.png' %}" height="300">
         </div>
-        <div class="cards__back"><img src="{{ tarot.figure.url }}" height="300">
+        <div class="cards__back"><img class="img-fluid" src="{{ tarot.figure.url }}" height="300">
 			
     	</div>
 	</div>
