@@ -4,7 +4,7 @@
 }
 .body {
     background-image: url("whiterose_tarot/staticfiles/images/base/gray-texture.jpg");
-    background-repeat: repeat;
+    background-repeat: repeat-x;
 }
 .imgbanner {
     width:100%;
