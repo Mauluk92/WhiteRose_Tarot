@@ -1,3 +1,7 @@
 .banner-container {
     color: white;
 }
+.bg-primary {
+    color: white;
+    background-color:black;
+}
