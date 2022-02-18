@@ -17,6 +17,9 @@ body {
     cursor: pointer;
     text-align: center;
   }
+  .cards__front {
+    transform: rotateX(0deg);
+  }
   .cards__front,
   .cards__back {
     -webkit-backface-visibility: hidden;
@@ -31,6 +34,8 @@ body {
   
   .cards__back {
     transform: rotateY(180deg);
+    -moz-transform:rotateY(180deg);
+    -o-transform:rotateY(180deg);
     -webkit-transform: rotateY(180deg);
     position: absolute;
     text-align: center;
