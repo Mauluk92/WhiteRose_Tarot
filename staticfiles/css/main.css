@@ -2,3 +2,12 @@
     color: white;
     background-color:black;
 }
+.body {
+    background-image: url('staticfiles/images/base/gray-texture.jpg');
+    background-repeat: repeat;
+}
+.imgbanner {
+    width:100%;
+    max-width: 800px;
+    height:auto;
+}
