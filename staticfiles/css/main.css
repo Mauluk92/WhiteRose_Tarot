@@ -41,6 +41,7 @@ body {
   }
  
  .cards__single {
+     transition: transform 0.6s;
     -webkit-transition: transform 0.6s;
     transform-style: preserve-3d;
   }
