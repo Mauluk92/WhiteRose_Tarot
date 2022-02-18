@@ -2,4 +2,35 @@
 {% block title %} Homepage {% endblock %} 
 {% block content %}
 <h1>Ecco la Homepage!</h1>
+{% with tarot_generate as tarot %}
+	<div class="cards__single">
+        <div class="cards__front"><img src="{% static 'images/base/whiteroseback.png' %}" height="300">
+        </div>
+        <div class="cards__back"><img src="{{ tarot.figure.url }}" height="300">
+			
+    	</div>
+	</div>
+	<div class="fade">
+		<h2>{{ tarot.short_tip }}</h2>
+	</div>
+	<button class="btn-fade">Click Here!</button>
+	{% endwith %}
+<script>
+const cards = document.querySelectorAll(".cards__single");
+var div = document.querySelector(".fade");
+function flipCard() {
+  this.classList.add("flip");
+  fadefunction()
+}
+function fadefunction() {
+	div.classList.add("elementToFadeInAndOut");
+};
+
+cards.forEach((card) => card.addEventListener("click", flipCard))
+
+
+var btn = document.querySelector(".btn-fade")
+
+cards.addEventListener("click", fadefunction);
+	</script>
 {% endblock %}
