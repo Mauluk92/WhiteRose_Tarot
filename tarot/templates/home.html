@@ -5,9 +5,9 @@
 <h1>Ecco la Homepage!</h1>
 {% with tarot_generate as tarot %}
 	<div class="cards__single container-fluid">
-        <div class="cards__front"><img src="{% static 'images/base/whiteroseback.png' %}" height="150">
+        <div class="cards__front"><img src="{% static 'images/base/whiteroseback.png' %}" height="100vh">
         </div>
-        <div class="cards__back"><img src="{{ tarot.figure.url }}" height="150">
+        <div class="cards__back"><img src="{{ tarot.figure.url }}" height="100vh">
 			
     	</div>
 	</div>
