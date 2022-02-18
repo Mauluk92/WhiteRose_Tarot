@@ -1,8 +1,7 @@
 from django.template import loader 
-from django.http.response import HttpResponse
+from django.shortcuts import render
 
 def homepage(request):
-    template = loader.get_template('home.html')
-    return HttpResponse(template)
+    return render(request, 'home.html')
 
 # Create your views here.
