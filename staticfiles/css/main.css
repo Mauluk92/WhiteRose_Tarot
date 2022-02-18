@@ -3,7 +3,7 @@
     background-color:black;
 }
 .body {
-    background-image: url("/app/staticfiles/images/base/gray-texture.jpg");
+    background-image:  url('{% static "images/base/gray-texture.jpeg" %}');
     background-repeat: repeat-x;
 }
 .imgbanner {
