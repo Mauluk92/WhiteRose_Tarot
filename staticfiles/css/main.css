@@ -5,7 +5,6 @@
 body {
     background-image:url("/staticfiles/images/base/gray-texture.webp");
     background-repeat: repeat;
-    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
 }
 .imgbanner {
     width:100%;
