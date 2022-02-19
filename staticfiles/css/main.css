@@ -5,7 +5,7 @@
 body {
    /* background-image:url("/staticfiles/images/base/gray-texture.webp"); */
     background-repeat: repeat;
-    background:linear-gradient(white, black);
+    background:linear-gradient(orange, white);
 }
 .imgbanner {
     width:100%;
