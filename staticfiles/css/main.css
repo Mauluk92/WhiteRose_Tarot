@@ -3,12 +3,8 @@
     background-color:black;
 }
 body {
-   /* background-image:url("/staticfiles/images/base/gray-texture.webp"); */
+    background-image:url("/staticfiles/images/base/texture-header.png"); 
     background-repeat: repeat;
-    background: linear-gradient(orange, #e2d274);
-}
-.header {
-    background-color: #c1ba8a;
 }
 .imgbanner {
     width:100%;
