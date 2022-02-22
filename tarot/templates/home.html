@@ -3,6 +3,8 @@
 {% block title %} Homepage {% endblock %} 
 {% block content %}
 <h1 class="header">Pick your card!</h1>
+<div class="container">
+<div class="row">
 {% with tarot_generate as tarot %}
 	<div class="col-*-6 cards__single container-fluid">
         <div class="cards__front"><img src="{% static 'images/base/whiteroseback.png' %}" height="400vh">
@@ -16,7 +18,8 @@
 		</div>
 	</div>
 	{% endwith %}
-
+</div>
+</div>
 <script>
 const cards = document.querySelectorAll(".cards__single");
 var div = document.querySelector(".fade");
