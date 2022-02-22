@@ -9,13 +9,12 @@
         <div class="cards__front"><img src="{% static 'images/base/whiteroseback.png' %}" height="400vh">
         </div>
         <div class="cards__back">
-			<img src="{{ tarot.figure.url }}" height="400vh">		
+			<a href="{% url 'homepage' %}"></a><img src="{{ tarot.figure.url }}" height="400vh">		
 		</div>	
 	</div>
 	<div class="col col-6-lg fade">
 		<h2>{{ tarot.short_tip }}</h2>
 		<p> {{ tarot.description }}</p>
-		<button class="btn btn-dark">Pick Another Card</button>
 	</div>
 	</div>
 	{% endwith %}
