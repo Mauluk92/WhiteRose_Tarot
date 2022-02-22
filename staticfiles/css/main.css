@@ -70,8 +70,7 @@ body {
    opacity:0;
  }
  .elementToFadeInAndOut {
-   animation: fadeInOut 4s linear forwards;
-   animation: grow 2s linear forwards;
+   animation: fadeInOut 4s linear forwards, grow 2s linear forwards;
  }
  
  
