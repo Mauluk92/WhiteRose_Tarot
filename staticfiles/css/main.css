@@ -71,6 +71,7 @@ body {
  }
  .elementToFadeInAndOut {
    animation: fadeInOut 4s linear forwards;
+   animation: grow 2s linear forwards;
  }
  
  
@@ -79,3 +80,7 @@ body {
    0% { opacity:0; }
    100% { opacity:1; } 
   }
+ @keyframes grow {
+   0% { text-size:0.01 em; }
+   100% { text-size:3.5 em; }
+ }
