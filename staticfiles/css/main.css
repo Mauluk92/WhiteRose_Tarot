@@ -75,9 +75,6 @@ body {
  .fadeout_active {
    animation: fadeOut 2s linear forwards;
  }
- .fadeout {
-   text-align:center;
- }
  
  @keyframes fadeInOut {
    0% { opacity:0; }
