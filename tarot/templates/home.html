@@ -3,22 +3,19 @@
 {% block title %} Homepage {% endblock %} 
 {% block content %}
 <h1 class="header">Pick your card!</h1>
-<div class="card">
 {% with tarot_generate as tarot %}
-	<div class="cards__single container-fluid">
+	<div class="col-*-6 cards__single container-fluid">
         <div class="cards__front"><img src="{% static 'images/base/whiteroseback.png' %}" height="400vh">
         </div>
         <div class="cards__back">
 			<img src="{{ tarot.figure.url }}" height="400vh">		
 		</div>	
 	</div>
-		<div class="card-body bg-primary">
-	<div class="fade">
+	<div class="col-*-6 fade">
 		<h2>{{ tarot.short_tip }}</h2>
 		</div>
 	</div>
 	{% endwith %}
-</div>
 
 <script>
 const cards = document.querySelectorAll(".cards__single");
