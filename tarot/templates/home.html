@@ -4,6 +4,7 @@
 {% block content %}
 <h1 class="header">Pick your card!</h1>
 {% with tarot_generate as tarot %}
+<div class="row">
 	<div class="cards__single container-fluid">
         <div class="cards__front"><img src="{% static 'images/base/whiteroseback.png' %}" height="400vh">
         </div>
@@ -12,13 +13,15 @@
 		</div>	
 	</div>
 	<div class="card">
-		<div class="card-body card__caption">
+		<div class="card-body bg-primary">
 	<div class="fade">
 		<h2>{{ tarot.short_tip }}</h2>
 	</div>
 		</div>
 	</div>
+</div>
 	{% endwith %}
+
 <script>
 const cards = document.querySelectorAll(".cards__single");
 var div = document.querySelector(".fade");
