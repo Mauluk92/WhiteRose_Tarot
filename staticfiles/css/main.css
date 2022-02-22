@@ -80,6 +80,6 @@ body {
    100% { opacity:1; } 
   }
  @keyframes grow {
-   0% { text-size:0.01 em; }
-   100% { text-size:3.5 em; }
+   0% { font-size:0.01 em; }
+   100% { font-size:3.5 em; }
  }
