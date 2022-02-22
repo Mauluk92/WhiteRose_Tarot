@@ -2,7 +2,9 @@
     color: white;
     background-color:black;
 }
-
+body {
+  font-family: 'Galdeano', sans-serif;
+}
 .bg-primary {
   display:flex;
   background-color:black;
