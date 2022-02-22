@@ -76,6 +76,9 @@ body {
    animation: fadeOut 2s linear forwards;
  }
  
+ .meaning {
+   text-align: center;
+ }
  
  @keyframes fadeInOut {
    0% { opacity:0; }
