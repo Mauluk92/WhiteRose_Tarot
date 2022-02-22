@@ -68,7 +68,7 @@ body {
    width:200px;
    height: 200px;
    opacity:0;
-   font-size:0.01 em;
+   font-size:0.01em;
  }
  .elementToFadeInAndOut {
    animation: fadeInOut 4s linear forwards, grow 2s linear forwards;
@@ -81,6 +81,6 @@ body {
    100% { opacity:1; } 
   }
  @keyframes grow {
-   0% { font-size:0.01 em; }
-   100% { font-size:3.5 em; }
+   0% { font-size:0.01em; }
+   100% { font-size:3.5em; }
  }
