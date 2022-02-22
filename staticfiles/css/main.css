@@ -68,6 +68,7 @@ body {
    width:200px;
    height: 200px;
    opacity:0;
+   font-size:0.01 em;
  }
  .elementToFadeInAndOut {
    animation: fadeInOut 4s linear forwards, grow 2s linear forwards;
