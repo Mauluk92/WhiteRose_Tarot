@@ -5,15 +5,20 @@
 <h1 class="header">Pick your card!</h1>
 {% with tarot_generate as tarot %}
 	<div class="cards__single container-fluid">
+		<div class="row">
+			<div class="col-*-6">
         <div class="cards__front"><img src="{% static 'images/base/whiteroseback.png' %}" height="400vh">
         </div>
         <div class="cards__back"><img src="{{ tarot.figure.url }}" height="400vh">
 			
     	</div>
+		</div>
 	</div>
+	<div class="col-*-6">
 	<div class="container-fluid">
 	<div class="fade">
 		<h2>{{ tarot.short_tip }}</h2>
+	</div>
 	</div>
 	</div>
 	{% endwith %}
