@@ -7,18 +7,15 @@
 	<div class="cards__single container-fluid">
         <div class="cards__front"><img src="{% static 'images/base/whiteroseback.png' %}" height="400vh">
         </div>
-		<figure>
         <div class="cards__back">
 			<img src="{{ tarot.figure.url }}" height="400vh">		
-		</div>
-		<figcaption>
-			<div class="fade">
-				<h2>{{ tarot.short_tip }}</h2>
-			</div>
-		</figcaption>
-		</figure>
+		</div>	
 	</div>
-	
+	<div class="card card__caption">
+	<div class="fade">
+		<h2>{{ tarot.short_tip }}</h2>
+	</div>
+	</div>
 	{% endwith %}
 <script>
 const cards = document.querySelectorAll(".cards__single");

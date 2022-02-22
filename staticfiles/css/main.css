@@ -3,6 +3,12 @@
     background-color:black;
 }
 
+.card__caption {
+  display:flex;
+  background-color:black;
+  color:white;
+  justify-content:center;
+}
 .imgbanner {
     width:100%;
     max-width: 800px;
