@@ -3,8 +3,8 @@
 {% block title %} Homepage {% endblock %} 
 {% block content %}
 <h1 class="header">Pick your card!</h1>
+<div class="container-fluid">
 {% with tarot_generate as tarot %}
-<div class="row">
 	<div class="cards__single container-fluid">
         <div class="cards__front"><img src="{% static 'images/base/whiteroseback.png' %}" height="400vh">
         </div>
@@ -19,8 +19,8 @@
 	</div>
 		</div>
 	</div>
-</div>
 	{% endwith %}
+</div>
 
 <script>
 const cards = document.querySelectorAll(".cards__single");
