@@ -2,8 +2,6 @@
 {% load static %}
 {% block title %} Homepage {% endblock %} 
 {% block content %}
-<h1 class="header">Pick your card!</h1>
-<div class="container">
 <div class="row">
 {% with tarot_generate as tarot %}
 	<div class="col-6-lg cards__single">
@@ -14,6 +12,7 @@
 		</div>	
 	</div>
 	<div class="col-*-lg fade">
+		<h1 class="header">Pick your card!</h1>
 		<h2>{{ tarot.short_tip }}</h2>
 		</div>
 	</div>
