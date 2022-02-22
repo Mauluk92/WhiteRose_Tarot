@@ -75,8 +75,8 @@ body {
  .fadeout_active {
    animation: fadeOut 2s linear forwards;
  }
- .top5 {
-   margin-top: 5px;
+ .top10 {
+   margin-top: 10px;
  }
  @keyframes fadeInOut {
    0% { opacity:0; }
