@@ -82,5 +82,5 @@ body {
   }
  @keyframes grow {
    0% { font-size:0.01em; }
-   100% { font-size:3.5em; }
+   100% { font-size:1em; }
  }
