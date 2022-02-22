@@ -2,7 +2,7 @@
 {% load static %}
 {% block title %} Homepage {% endblock %} 
 {% block content %}
-<h1 class="header">Ecco la Homepage!</h1>
+<h1 class="header">Pick your card!</h1>
 {% with tarot_generate as tarot %}
 	<div class="cards__single container-fluid">
         <div class="cards__front"><img src="{% static 'images/base/whiteroseback.png' %}" height="400vh">
@@ -11,10 +11,11 @@
 			
     	</div>
 	</div>
+	<div class="container-fluid">
 	<div class="fade">
 		<h2>{{ tarot.short_tip }}</h2>
 	</div>
-	<button class="btn-fade">Click Here!</button>
+	</div>
 	{% endwith %}
 <script>
 const cards = document.querySelectorAll(".cards__single");
