@@ -2,6 +2,9 @@
     color: white;
     background-color:black;
 }
+.img-tarot {
+  max-width: 400px;
+}
 body {
   font-family: 'Galdeano', sans-serif;
 }
@@ -100,9 +103,12 @@ body {
 }
 
 @media only screen and (max-device-width : 730px) {
-  .fadeout, .fade {
-      font-size: 0.8em;
-      position:static;
+    .img-tarot {
+      max-width: 100px;
   }
 }
-
+@media only screen and (max-device-width : 740px) {
+  .fade, .fadeout {
+    font-size: 0.9em;
+  }
+}
