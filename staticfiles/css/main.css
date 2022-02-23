@@ -28,7 +28,7 @@ body {
 .cards__single {
 
     cursor: pointer;
-    text-align: left;
+    text-align: center;
   }
   .cards__front {
     transform: rotateX(0deg);
@@ -115,7 +115,7 @@ body {
 @media only screen and (max-device-width : 740px) {
   .fade, .fadeout {
     font-size: 0.9em;
-    width: 230px;
+    width: 200px;
   }
 }
 @media only screen and (max-device-width : 740px) {
