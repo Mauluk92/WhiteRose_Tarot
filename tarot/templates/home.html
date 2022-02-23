@@ -6,7 +6,7 @@
 
 {% with tarot_generate as tarot %}
 <div class="row">
-	<div class="col col-lg-2 col-md-12 offset-lg-1 col-sm-1 d-flex justify-content-start cards__single">
+	<div class="col col-lg-2 col-md-12 offset-lg-1 col-sm-12 d-flex justify-content-start cards__single">
         <div class="cards__front">
 			<img class="img-tarot" src="{% static 'images/base/whiteroseback.png' %}" >
         </div>
@@ -14,7 +14,7 @@
 			<a href="{% url 'home' %}"><img class="img-tarot" src="{{ tarot.figure.url }}"></a>		
 		</div>	
 	</div>
-	<div class="col col-sm-11 col-md-12 col-lg-6 offset-lg-3 d-flex justify-content-center">
+	<div class="col col-sm-12 col-md-12 col-lg-6 offset-lg-3 d-flex justify-content-center">
 		<div class="fadeout">
 			<h2>This is the Whiterose Project</h2>
 			<p>It is my personal reinterpretation of the Rider-Waite-Smith's Tarot Deck.
