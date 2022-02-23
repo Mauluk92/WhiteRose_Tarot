@@ -10,7 +10,7 @@ def homepage(request):
     return HttpResponse(output)
 
 def meanings(request):
-    tarot_list = Tarot.objects.all()
+    tarot_list = Tarot.objects.all().order_by('id')
     template = loader.get_template('meanings.html')
     context = {'tarot_list': tarot_list}
     output = template.render(context)
