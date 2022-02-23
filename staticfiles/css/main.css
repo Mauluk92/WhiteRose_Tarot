@@ -74,9 +74,10 @@ body {
  
  .fadeout_active {
    animation: fadeOut 2s linear forwards;
+   visibility: hidden;
  }
- .top10 {
-   margin-top: 10px;
+ .top20 {
+   margin-top: 20px;
  }
  @keyframes fadeInOut {
    0% { opacity:0; }
@@ -84,7 +85,7 @@ body {
   }
 
 @keyframes fadeOut {
-  0% {opacity: 1;}
+  0% {opacity:1}
   100% {opacity: 0;}
 }
 

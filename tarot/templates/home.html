@@ -6,7 +6,7 @@
 
 {% with tarot_generate as tarot %}
 <div class="row">
-	<div class="col d-flex justify-content-center cards__single">
+	<div class="col col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center cards__single">
         <div class="cards__front">
 			<img src="{% static 'images/base/whiteroseback.png' %}" height="250vh">
         </div>
@@ -15,16 +15,19 @@
 		</div>	
 	</div>
 </div>
-<div class="row top10">
-	<div class="col col-sm-12 col-md-12 col-lg-6 offset-lg-3 d-flex justify-content-center">
-				<div class="fade">
-					<div class="card mx-auto">
-						<div class="card-body">
-		<h2 class="card-title">{{ tarot.short_tip }}</h2>
-		<p class="card-text"> {{ tarot.description }}</p>
-						</div>
-					</div>
-				</div>
+<div class="row top20">
+	<div class="col col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center">
+		<div class="fadeout">
+			<p>This is the Whiterose Project. It is my personal reinterpretation of the Rider-Waite-Smith's Tarot Deck.
+				Each Tarot card's symbology stems from the original deck, even though some cards differ from the original in a significant way.
+				Feel free to explore!
+			</p>
+		</div>	
+		<div class="fade">
+						
+		<h2>{{ tarot.short_tip }}</h2>
+		<p> {{ tarot.description }}</p>
+		</div>
 	</div>
 </div>
 	{% endwith %}
