@@ -21,6 +21,9 @@ body {
     display:flex;
     justify-content:center;
 }
+.icon-tarot {
+  max-height: 300px;
+}
 .header {
     text-align:left;
 }
@@ -108,7 +111,7 @@ body {
 }
 
 @media only screen and (max-device-width : 730px) {
-    .img-tarot {
+    .img-tarot, .icon-tarot {
       max-height: 150px;
   }
 }

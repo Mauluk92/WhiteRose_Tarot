@@ -4,11 +4,11 @@
 {% block content %}
 {% for tarot in tarot_list %}
 
-<div class="row">
+
     <div class="col-2">
         <img class="icon-tarot" data-toggle="modal" data-target="#{{ tarot.name|cut:' ' }}" src="{{ tarot.figure.url }}" alt="{{ tarot.name }}">
     </div>
-</div>
+
 
 <div class="modal" id="{{ tarot.name|cut:' ' }}" tabindex="-1" role="dialog" aria-hidden="true" >
     <div class="modal-dialog" role="document">
