@@ -6,12 +6,12 @@
 
 {% with tarot_generate as tarot %}
 <div class="row">
-	<div class="col col-lg-2 col-md-2 col-sm-12 d-flex justify-content-center cards__single">
+	<div class="col col-lg-2 col-md-2 offset-lg-1 offset-md-1 col-sm-12 d-flex justify-content-center cards__single">
         <div class="cards__front">
-			<img src="{% static 'images/base/whiteroseback.png' %}" height="400vh">
+			<img src="{% static 'images/base/whiteroseback.png' %}" height="350vh">
         </div>
         <div class="cards__back">
-			<a href="{% url 'home' %}"><img src="{{ tarot.figure.url }}" height="400vh"></a>		
+			<a href="{% url 'home' %}"><img src="{{ tarot.figure.url }}" height="350vh"></a>		
 		</div>	
 	</div>
 	<div class="col col-sm-12 col-md-6 col-lg-6 offset-md-4 offset-lg-4 d-flex justify-content-center">
