@@ -104,11 +104,12 @@ body {
 
 @media only screen and (max-device-width : 730px) {
     .img-tarot {
-      max-height: 50px;
+      max-height: 100px;
   }
 }
 @media only screen and (max-device-width : 740px) {
   .fade, .fadeout {
     font-size: 0.9em;
+    width: 150px;
   }
 }
