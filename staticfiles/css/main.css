@@ -37,7 +37,7 @@ body {
   .cards__back {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    flex-direction: column;
+
   }
   .cards__front {
     height: 100%;
@@ -106,7 +106,6 @@ body {
     .img-tarot {
       max-height: 100px;
       position: absolute;
-      left:0px;
   }
 }
 @media only screen and (max-device-width : 740px) {
