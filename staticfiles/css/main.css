@@ -45,6 +45,7 @@ body {
     -webkit-transform: rotateX(0deg);
     position: absolute;
     left: 0;
+    right:10px;
     top: 10px;
 
   }
@@ -57,6 +58,7 @@ body {
     position: absolute;
     text-align: center;
     left: 0;
+    right: 10px;
     top: 10px;
     color: #20263f;
   }
