@@ -119,7 +119,8 @@ body {
   }
 }
 @media only screen and (max-device-width : 740px) {
-  .tip-tarot {
+  .tip-tarot, .intro-tarot {
     font-size: 1.1em;
+    font-weight: bold;
   }
 }
