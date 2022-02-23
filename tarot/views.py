@@ -16,7 +16,4 @@ def meanings(request):
     output = template.render(context)
     return HttpResponse(output)
 
-def contacts(request):
-    template = loader.get_template('contacts.html')
-    return HttpResponse(template.render())
 
