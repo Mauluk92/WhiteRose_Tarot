@@ -94,7 +94,9 @@ body {
  .top20 {
    margin-top: 20px;
  }
-
+ .bottom20 {
+   margin-bottom: 20px;
+ }
  .fadeout {
    font-size: 1.4em;
    position: absolute;
