@@ -110,7 +110,7 @@ body {
 @media only screen and (max-device-width : 740px) {
   .fade, .fadeout {
     font-size: 0.9em;
-    width: 350px;
+    width: 280px;
   }
 }
 @media only screen and (max-device-width : 740px) {
