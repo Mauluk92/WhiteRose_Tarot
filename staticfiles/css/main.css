@@ -113,7 +113,7 @@ body {
 }
 
 @media only screen and (max-device-width : 730px) {
-    .img-tarot, .icon-tarot {
+    .img-tarot {
       max-height: 150px;
   }
 }
