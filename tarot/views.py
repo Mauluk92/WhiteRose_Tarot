@@ -9,3 +9,11 @@ def homepage(request):
     output = template.render(context)
     return HttpResponse(output)
 
+def meanings(request):
+    tarot_list = Tarot.objects.all()
+    template = loader.get_template('meanings.html')
+    context = {'tarot_list': tarot_list}
+    output = template.render(context)
+    return HttpResponse(output)
+
+
