@@ -18,5 +18,5 @@ def meanings(request):
 
 def contacts(request):
     template = loader.get_template('contacts.html')
-    return HttpResponse(template)
+    return HttpResponse(template.render())
 
