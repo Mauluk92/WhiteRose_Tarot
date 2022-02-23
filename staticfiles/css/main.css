@@ -99,3 +99,13 @@ body {
   100% {opacity: 0;}
 }
 
+@media only screen and (max-device-width : 730px) {
+  .fadeout, .fade {
+      font-size: 0.8em;
+      position:absolute;
+      bottom: 10px;
+      left:0;
+      right:0;
+  }
+}
+
