@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import homepage, meanings, contacts
+from .views import homepage, meanings
 
 urlpatterns = [
      path('', homepage, name='home'),
