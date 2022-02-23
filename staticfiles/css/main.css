@@ -67,6 +67,7 @@ body {
   .fade {
    opacity:0;
    font-size:1.1em;
+   visibility:hidden;
  }
  .elementToFadeInAndOut {
    animation: fadeInOut 4s linear forwards;
