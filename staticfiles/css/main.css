@@ -44,7 +44,6 @@ body {
     transform: rotateX(0deg);
     -webkit-transform: rotateX(0deg);
     position: absolute;
-    right: 0;
     left: 0;
     top: 10px;
 
@@ -57,7 +56,6 @@ body {
     -webkit-transform: rotateY(180deg);
     position: absolute;
     text-align: center;
-    right: 0;
     left: 0;
     top: 10px;
     color: #20263f;
