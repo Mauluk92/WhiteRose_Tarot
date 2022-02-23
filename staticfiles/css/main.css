@@ -37,15 +37,17 @@ body {
   .cards__back {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    position:absolute;
-    top: 10px;
-    left: 10px;
 
   }
   .cards__front {
     height: 100%;
     transform: rotateX(0deg);
     -webkit-transform: rotateX(0deg);
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 10px;
+
   }
   
   .cards__back {
