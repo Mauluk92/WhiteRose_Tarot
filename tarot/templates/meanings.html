@@ -7,20 +7,21 @@
 <div class="row">
     <div class="col-2">
         <img class="icon-tarot" data-toggle="modal" data-target="#{{ tarot.name|cut:' ' }}" src="{{ tarot.figure.url }}" alt="{{ tarot.name }}">
-        <div class="modal fade" id="{{ tarot.name|cut:' ' }}" tabindex="-1" role="dialog" aria-hidden="true" >
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2 class="modal-title">{{ tarot.name }}</h2>
+    </div>
+</div>
 
-                    </div>
-                    <div class="modal-body">
-                        <p>{{ tarot.description }}</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary bg-button" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
+<div class="modal fade" id="{{ tarot.name|cut:' ' }}" tabindex="-1" role="dialog" aria-hidden="true" >
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">{{ tarot.name }}</h2>
+
+            </div>
+            <div class="modal-body">
+                <p>{{ tarot.description }}</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary bg-button" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
