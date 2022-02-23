@@ -85,6 +85,7 @@ body {
  }
 
  .fadeout {
+   font-size: 1.1em;
    position: absolute;
    right: 10px;
  }
