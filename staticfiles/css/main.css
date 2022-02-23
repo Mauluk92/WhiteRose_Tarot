@@ -68,6 +68,8 @@ body {
    opacity:0;
    font-size:1.1em;
    visibility:hidden;
+   position: absolute;
+   right: 10px;
  }
  .elementToFadeInAndOut {
    animation: fadeInOut 4s linear forwards;
@@ -80,6 +82,11 @@ body {
  }
  .top20 {
    margin-top: 20px;
+ }
+
+ .fadeout {
+   position: absolute;
+   right: 10px;
  }
  @keyframes fadeInOut {
    0% { opacity:0; }
