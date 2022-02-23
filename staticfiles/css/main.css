@@ -110,6 +110,11 @@ body {
 @media only screen and (max-device-width : 740px) {
   .fade, .fadeout {
     font-size: 0.9em;
-    width: 150px;
+    width: 350px;
+  }
+}
+@media only screen and (max-device-width : 740px) {
+  .tip-tarot {
+    font-size: 1em;
   }
 }
