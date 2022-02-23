@@ -91,6 +91,9 @@ body {
    animation: fadeOut 2s linear forwards;
    visibility: hidden;
  }
+ .top160 {
+   margin-top: 160px;
+ }
  .top80 {
    margin-top: 80px;
  }
