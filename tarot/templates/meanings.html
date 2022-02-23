@@ -7,7 +7,7 @@
 {% for tarot in tarot_list %}
 
 
-    <div class="col-lg-2 col-sm-12 bottom10">
+    <div class="col-lg-2 col-sm-12 bottom10 d-flex justify-content-center">
         <img class="icon-tarot" data-toggle="modal" data-target="#{{ tarot.name|cut:' ' }}" src="{{ tarot.figure.url }}" alt="{{ tarot.name }}">
     </div>
 
