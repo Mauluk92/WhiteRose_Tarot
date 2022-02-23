@@ -71,6 +71,7 @@ body {
  }
  .elementToFadeInAndOut {
    animation: fadeInOut 4s linear forwards;
+   visibility: visible;
  }
  
  .fadeout_active {
