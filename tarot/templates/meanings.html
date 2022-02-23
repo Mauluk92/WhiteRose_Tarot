@@ -1,7 +1,8 @@
 {% extends "base.html" %}
 {% load static %}
-{% block title %} Homepage {% endblock %} 
+{% block title %} Tarot Meanings {% endblock %} 
 {% block content %}
+<div class="container-fluid">
 {% for tarot in tarot_list %}
 
 
@@ -28,4 +29,5 @@
 </div>
 
 {% endfor %}
+</div>
 {% endblock %}
